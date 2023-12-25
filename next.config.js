@@ -8,6 +8,12 @@ const nextConfig = {
         port: "",
         // pathname: '/account123/**',
       },
+      {
+        protocol: "https",
+        hostname:
+          "relex-graphql-project-jhyjz96w6-nadun-malindas-projects.vercel.app",
+        port: "",
+      },
     ],
   },
 };
