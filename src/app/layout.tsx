@@ -18,8 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={sourceSans3.className}>
-      <body>
-        <div className="w-full max-w-7xl mx-auto py-8 px-4 h-full">
+      <body className="bg-zinc-50">
+        <div className="w-full max-w-6xl mx-auto p-8 h-full bg-white">
           {children}
         </div>
       </body>
